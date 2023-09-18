@@ -129,7 +129,7 @@ func (g *Generator) DoFile(fileName string) error {
 		}
 	}
 
-	return g.addFile(fileName, schema)
+	return g.AddFile(fileName, schema)
 }
 
 func (g *Generator) parseFile(fileName string) (*schemas.Schema, error) {
@@ -161,7 +161,7 @@ func (g *Generator) parseFile(fileName string) (*schemas.Schema, error) {
 	return sc, nil
 }
 
-func (g *Generator) addFile(fileName string, schema *schemas.Schema) error {
+func (g *Generator) AddFile(fileName string, schema *schemas.Schema) error {
 	o, err := g.findOutputFileForSchemaID(schema.ID)
 	if err != nil {
 		return err
@@ -207,7 +207,7 @@ func (g *Generator) loadSchemaFromFile(fileName, parentFileName string) (*schema
 
 		g.schemaCacheByFileName[qualified] = schema
 
-		if err = g.addFile(qualified, schema); err != nil {
+		if err = g.AddFile(qualified, schema); err != nil {
 			return nil, err
 		}
 
