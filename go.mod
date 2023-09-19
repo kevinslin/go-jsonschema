@@ -23,3 +23,7 @@ require (
 )
 
 replace github.com/atombender/go-jsonschema => github.com/kevinslin/go-jsonschema v0.9.2
+
+replace github.com/atombender/go-jsonschema/pkg/codegen => github.com/kevinslin/go-jsonschema/pkg/codegen v0.9.2
+
+replace github.com/atombender/go-jsonschema/pkg/schemas => github.com/kevinslin/go-jsonschema/pkg/schemas v0.9.2

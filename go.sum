@@ -11,8 +11,8 @@ github.com/goccy/go-yaml v1.11.2/go.mod h1:wKnAMd44+9JAAnGQpWVEgBzGt3YuTaQ4uXoHv
 github.com/google/go-cmp v0.5.9 h1:O2Tfq5qg4qc4AmwVlvv0oLiVAGB7enBSJ2x2DqQFi38=
 github.com/inconshreveable/mousetrap v1.1.0 h1:wN+x4NVGpMsO7ErUn/mUI3vEoE6Jt13X2s0bqwp9tc8=
 github.com/inconshreveable/mousetrap v1.1.0/go.mod h1:vpF70FUmC8bwa3OWnCshd2FqLfsEA9PFc4w1p2J65bw=
-github.com/kevinslin/go-jsonschema v0.9.1 h1:1ed8GAUhdrLOhEhCIpBCDgjmbxRPTPI8QPLOl1igQ58=
-github.com/kevinslin/go-jsonschema v0.9.1/go.mod h1:8Wes28LloObbF4xQY2/onSm1HCttpuTeIx18HcdLYYY=
+github.com/kevinslin/go-jsonschema v0.9.2 h1:z9oNvIwK2xA6fy6hcv+YH0QDuTwyHvKoixIXE1HDjOY=
+github.com/kevinslin/go-jsonschema v0.9.2/go.mod h1:8Wes28LloObbF4xQY2/onSm1HCttpuTeIx18HcdLYYY=
 github.com/leodido/go-urn v1.2.0 h1:hpXL4XnriNwQ/ABnpepYM/1vCLWNDfUNts8dX3xTG6Y=
 github.com/mattn/go-colorable v0.1.9/go.mod h1:u6P/XSegPjTcexA+o6vUJrdnUu04hMope9wVRipJSqc=
 github.com/mattn/go-colorable v0.1.12 h1:jF+Du6AlPIjs2BiUiQlKOX0rt3SujHxPnksPKZbaA40=

@@ -23,7 +23,7 @@ type Config struct {
 	DefaultPackageName  string
 	DefaultOutputName   string
 	StructNameFromTitle bool
-	Warner              func(string)
+	Warner              func(string) `json:"-"`
 	Tags                []string
 }
 
