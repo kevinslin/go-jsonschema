@@ -22,8 +22,8 @@ require (
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
 )
 
-replace github.com/atombender/go-jsonschema => github.com/kevinslin/go-jsonschema v0.9.2
+replace github.com/atombender/go-jsonschema => github.com/kevinslin/go-jsonschema v0.9.3
 
-replace github.com/atombender/go-jsonschema/pkg/codegen => github.com/kevinslin/go-jsonschema/pkg/codegen v0.9.2
+replace github.com/atombender/go-jsonschema/pkg/codegen => github.com/kevinslin/go-jsonschema/pkg/codegen v0.9.3
 
-replace github.com/atombender/go-jsonschema/pkg/schemas => github.com/kevinslin/go-jsonschema/pkg/schemas v0.9.2
+replace github.com/atombender/go-jsonschema/pkg/schemas => github.com/kevinslin/go-jsonschema/pkg/schemas v0.9.3
